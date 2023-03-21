@@ -7,12 +7,17 @@ public class Livro {
     String autor;
 
     void exibirDados(){
-        System.out.println(nome);
-        System.out.println(resumo);
-        System.out.println(preco);
-        System.out.println(paginas);
-        System.out.println(autor);
+        System.out.println("Nome: " + nome);
+        System.out.println("Resumo: " + resumo);
+        System.out.println("Preço: " + preco);
+        System.out.println("Paginas: " + paginas);
+        System.out.println("Autor: " + autor);
         System.out.println("-------");
     }
+
+    void aplicarDesconto(double percentual) {
+        preco = preco - (preco * percentual);
+    }
+
 
 }

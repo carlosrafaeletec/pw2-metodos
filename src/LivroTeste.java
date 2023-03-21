@@ -8,6 +8,8 @@ public class LivroTeste {
         meuLivro.resumo = "bla bla bla";
         meuLivro.autor = "Jeffey kymei";
 
+        meuLivro.aplicarDesconto(0.1);
+
        meuLivro.exibirDados();
 
         Livro livroFavorito = new Livro();
@@ -16,6 +18,8 @@ public class LivroTeste {
         livroFavorito.paginas = 448;
         livroFavorito.preco = 61.90;
         livroFavorito.autor = "Arthur Conan Doyle";
+
+        livroFavorito.aplicarDesconto(0.25);
 
         livroFavorito.exibirDados();
 
