@@ -23,5 +23,21 @@ public class LivroTeste {
 
         livroFavorito.exibirDados();
 
+        // Exercicio
+
+        Livro livroExer = new Livro();
+
+        livroExer.nome = "Pinoquio";
+        livroExer.resumo = "bla bla bla";
+        livroExer.paginas = 346;
+        livroExer.preco = 230.00;
+        livroExer.autor = "Carlo Collodi";
+
+        livroExer.aplicarDesconto(0.2);
+
+        livroExer.aplicarTaxa(0.8);
+
+        livroExer.exibirDados();
+
     }
 }

@@ -19,5 +19,10 @@ public class Livro {
         preco = preco - (preco * percentual);
     }
 
+    void aplicarTaxa(double percentual) {
+        preco = preco + (preco * percentual);
+    }
+
+
 
 }
